@@ -61,3 +61,18 @@ print(line.lower())
 print(line.count('i'))
 print(message.replace('test', 'gargantum'))
 
+# Indexing 
+
+box = 'Shariq Raza Qadri'
+print(box[4:8]) # First index is inclusive & last index is not
+print(box[:3]) #Slicing 
+print(box[4])
+
+# Concatenation
+
+first_name = 'Shariq'
+last_name = 'Raza Qadri'
+greeting = 'Salaams'
+
+greet = greeting + " " + first_name + " " + last_name
+print(greet)
