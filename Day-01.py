@@ -76,3 +76,7 @@ greeting = 'Salaams'
 
 greet = greeting + " " + first_name + " " + last_name
 print(greet)
+
+# Formatted String(s)
+
+greet = 'Welcome {}. {}!'.format(greeting,name)
