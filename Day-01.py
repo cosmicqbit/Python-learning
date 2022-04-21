@@ -46,3 +46,18 @@ line = """ This is a multi
 line string"""
 
 print(line)
+
+# Functions vs Methods
+
+print(abs(-2.3)) #Function example
+
+# Method
+
+# Method is a specific function associated to a class called using dot
+
+print(message.upper())
+print(line.lower())
+
+print(line.count('i'))
+print(message.replace('test', 'gargantum'))
+
