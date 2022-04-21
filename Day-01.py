@@ -36,4 +36,13 @@ print(round(2.334, 1)) # round off to 2 decimal place
 name = "File"
 print(name)
 
+#Strings 
 
+message = "test message"
+
+#Multi line strings
+
+line = """ This is a multi 
+line string"""
+
+print(line)
