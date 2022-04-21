@@ -31,4 +31,9 @@ print(round(2.334, 1)) # round off to 2 decimal place
 4 >= 2
 2 <= 4
 
+# Identifier / Variable
+
+name = "File"
+print(name)
+
 
