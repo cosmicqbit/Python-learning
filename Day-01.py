@@ -80,3 +80,14 @@ print(greet)
 # Formatted String(s)
 
 greet = 'Welcome {}. {}!'.format(greeting,name)
+greet = f'Welcome  {greeting} {name}'
+
+# Concatenating numbers / Type casting
+
+num1 = 2
+num2 = 3
+
+num1 = int(num1)
+num2 = int(num2)
+
+print(num1 + num2)
