@@ -95,3 +95,15 @@ print(tuple_2) # Will throw error cuz it's immutable
 sample_set = {'coa', 'os', 'dbms', 'java', 'python'}
 print(sample_set) # Will retunr the set in different order on every run time.
 
+# Intersection of sets / common element(s)
+cs_courses = {'coa', 'java', 'c', 'python', 'os'}
+ec_courses = {'coa', 'adc', 'dsa', 'signals'}
+
+print(cs_courses.intersection(ec_courses))
+
+# Difference of Sets / Elements existing in cs but not in ec
+print(cs_courses.difference(ec_courses))
+
+# Union of Sets 
+print(cs_courses.union(ec_courses))
+
