@@ -150,4 +150,17 @@ print(student.values())
 # Returning all elements 
 print(student.items())
 
-# Empty List
+# Creating Empty List
+empty_list = []
+empty_list = list()
+
+# Creating Empty Tuples
+empty_tuples = ()
+empty_tuples = tuple()
+
+#Creating Empty Sets
+empty_sets = set()
+
+# Creating Empty Dictionary
+empty_dictionary = {}
+
