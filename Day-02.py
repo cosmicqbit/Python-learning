@@ -48,5 +48,15 @@ print(courses)
 num = [2, 3, 5, 6, 0, 6]
 num.sort()
 print(num)
+print(sorted(num)) # Returns sorted list but doesn't actually change the original list
 
+# Sorting in reverse
+num = [2, 3, 5, 6, 0, 9]
+num.sort(reverse = True)
+print(num)
 
+# Finding min in the List
+print(min(num))
+
+# Finding max in the list
+print(max(num))
