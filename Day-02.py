@@ -60,3 +60,6 @@ print(min(num))
 
 # Finding max in the list
 print(max(num))
+
+# Sum 
+print(sum(num))
