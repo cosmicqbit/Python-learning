@@ -107,3 +107,14 @@ print(cs_courses.difference(ec_courses))
 # Union of Sets 
 print(cs_courses.union(ec_courses))
 
+# Dictionary  -> A collection of key value pair 
+# Syntax: dict_name = {key:value}
+
+# Example
+student = {'name': 'Shariq', 'age': 21, 'courses': ['coa', 'dsa', 'python']}
+print(student)
+
+# Accessing the specific key value pair
+print(student['name'])
+print(student['courses'])
+
