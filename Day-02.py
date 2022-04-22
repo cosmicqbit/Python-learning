@@ -87,6 +87,11 @@ print(list_2) # Will return same list
 tuple_1 = ('coa', 'os', 'dbms', 'java')
 tuple_2 = tuple_1
 
-tuple_1[0] = 'c'
+# tuple_1[0] = 'c'
 print(tuple_1)
 print(tuple_2) # Will throw error cuz it's immutable
+
+# Sets --> Unordered collection & doesn't allow duplicates
+sample_set = {'coa', 'os', 'dbms', 'java', 'python'}
+print(sample_set) # Will retunr the set in different order on every run time.
+
