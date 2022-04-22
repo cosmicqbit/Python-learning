@@ -37,6 +37,9 @@ print(courses)
 print(courses.index('dsa'))
 # Returns error if element doesn't exist 
 
+# check if an element exists in the list
+print('coa' in courses) # Returns boolean value
+
 
 
 
