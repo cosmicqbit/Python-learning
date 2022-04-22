@@ -63,3 +63,8 @@ print(max(num))
 
 # Sum 
 print(sum(num))
+
+# Merging the values in a common string
+test = ['Amir', 'Saqib', 'Wajid', 'Shahid']
+test_string = '-'.join(test)
+print(test_string)
