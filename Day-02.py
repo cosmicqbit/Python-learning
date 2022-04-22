@@ -21,3 +21,7 @@ courses.append(courses2)
 print(courses)
 
 # Extending the list / Merging list(s)
+courses2 = ['dsp', 'iwt']
+courses.extend(courses2)
+print(courses)
+
