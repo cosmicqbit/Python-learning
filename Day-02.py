@@ -40,7 +40,13 @@ print(courses.index('dsa'))
 # check if an element exists in the list
 print('coa' in courses) # Returns boolean value
 
+# Sorting / Reversing elements in list
+courses.reverse()
+print(courses)
 
-
+# Sorting --> Actually sorts the list
+num = [2, 3, 5, 6, 0, 6]
+num.sort()
+print(num)
 
 
