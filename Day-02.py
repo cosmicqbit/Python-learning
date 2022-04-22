@@ -117,4 +117,14 @@ print(student)
 # Accessing the specific key value pair
 print(student['name'])
 print(student['courses'])
+# If the key doesn't exist program will throw error
+
+# Alt way using get method 
+print(student.get('address', 'Not Found')) # comes handy in error handling
+
+# Updating value of a key or creating new key/value pair
+student['name'] = 'Wajid'
+print(student)
+
+
 
