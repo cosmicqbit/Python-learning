@@ -68,3 +68,25 @@ print(sum(num))
 test = ['Amir', 'Saqib', 'Wajid', 'Shahid']
 test_string = '-'.join(test)
 print(test_string)
+
+# Undoing the above merge / Splitting
+new_test = test_string.split('-')
+print(new_test)
+
+# //Tuples// --> Immutable versions of List
+# Read only list
+
+list_1 = ['coa', 'os', 'dsa', 'dbms']
+list_2 = list_1 # Simply a reference to a common List
+list_1[0] = 'probability'
+
+print(list_1)
+print(list_2) # Will return same list
+
+# Tuple Example
+tuple_1 = ('coa', 'os', 'dbms', 'java')
+tuple_2 = tuple_1
+
+tuple_1[0] = 'c'
+print(tuple_1)
+print(tuple_2) # Will throw error cuz it's immutable
