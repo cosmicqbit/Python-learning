@@ -25,3 +25,11 @@ courses2 = ['dsp', 'iwt']
 courses.extend(courses2)
 print(courses)
 
+# Removing / Deleting element from List
+courses.remove('os')
+print(courses)
+
+# Removing last element particularly
+terminal_element = courses.pop() # Returns the removed element
+print(courses)
+
