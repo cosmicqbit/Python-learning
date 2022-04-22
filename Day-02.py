@@ -126,5 +126,28 @@ print(student.get('address', 'Not Found')) # comes handy in error handling
 student['name'] = 'Wajid'
 print(student)
 
+#Updating multiple key/values
+student.update({'name': 'Shahid', 'age':23})
+print(student)
 
+# Deleting key/value in Dictionary
+del student['age']
+print(student)
 
+print(student)
+courses = student.pop('courses')
+print(courses)
+
+# Number of keys
+print(len(student)) 
+
+# Returning keys only
+print(student.keys())
+
+# Returning values only
+print(student.values())
+
+# Returning all elements 
+print(student.items())
+
+# Empty List
