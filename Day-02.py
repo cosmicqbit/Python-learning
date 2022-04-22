@@ -33,3 +33,11 @@ print(courses)
 terminal_element = courses.pop() # Returns the removed element
 print(courses)
 
+# Finding index of an element
+print(courses.index('dsa'))
+# Returns error if element doesn't exist 
+
+
+
+
+
