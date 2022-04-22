@@ -14,3 +14,10 @@ print(courses)
 # Insert -> Inserts elemetn at a specific index
 courses.insert(0,  'architecture')
 print(courses)
+
+# Inserting list inside the list
+courses2 = ['dsp', 'iwt']
+courses.append(courses2)
+print(courses)
+
+# Extending the list / Merging list(s)
