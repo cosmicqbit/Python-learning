@@ -109,4 +109,12 @@ for num in nums:
         break  # or continue
     print(num)
 
+# loop with a range
 
+for i in range(11):
+    print(i)
+
+# With initialization
+
+for i in range(1, 11):
+    print(i)
