@@ -118,3 +118,20 @@ for i in range(11):
 
 for i in range(1, 11):
     print(i)
+
+# Nested loops
+
+nums = [1, 2, 3, 4, 5]
+string = 'abc'
+for num in nums:
+    for letter in string:
+        print(num, letter)
+
+# while loop -> Requires initialization & increment statements
+
+x = 1
+while x < 10:
+    print(x)
+    x += 1
+
+    
