@@ -66,3 +66,11 @@ print(list2)
 
 print(list1 == list2) # Will return boolean
 
+ # Comparing List IDs
+print(list1 is list2) # Will return false 
+
+print(id(list1))
+print(id(list2))
+
+
+
