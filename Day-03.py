@@ -35,3 +35,14 @@ elif grade == 8:
     print("Your score is C")
 else:
     print("You've failed")
+
+# Conditional Operators
+
+user = 'Admin'
+logged_in = False
+
+if user == 'admin' and logged_in:
+    print('Admin Page')
+else:
+    print('Wrong credentials')
+
