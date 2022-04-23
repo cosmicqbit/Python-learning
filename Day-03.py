@@ -26,4 +26,12 @@ elif city == 'Chennai':
 else:
     print('Not matching')
 
-
+grade = 10
+if grade == 10:
+    print("Your score is A")
+elif grade == 9:
+    print("Your score is B")
+elif grade == 8:
+    print("Your score is C")
+else:
+    print("You've failed")
