@@ -99,3 +99,14 @@ for key, value in student.items():
 
 for value in student.items():
     print(value)
+
+# break & continue statement
+
+nums = [2, 3, 4, 5, 6]
+for num in nums:
+    if num == 3:
+        print('Found!')
+        break  # or continue
+    print(num)
+
+
