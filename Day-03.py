@@ -66,11 +66,36 @@ print(list2)
 
 print(list1 == list2) # Will return boolean
 
- # Comparing List IDs
+ # Comparing List IDs using is
 print(list1 is list2) # Will return false 
 
 print(id(list1))
 print(id(list2))
 
+# False values 
+# Boolean False, None, Zero of any numeric type, any empty sequence : '' , any empty maping {}
 
+condition = False
 
+if condition:
+    print("Evaluated to True")
+else:
+    print("Evaluated to False")
+
+# Loops
+
+# For Loop
+
+nums = [1, 2, 3, 4, 5]
+for num in nums:
+    print(num)
+
+student = {'name': 'Amir', 'age': 24, 'address': 'city', 'cell': 999}
+for key in student:
+    print(key)
+
+for key, value in student.items():
+    print(key, value)
+
+for value in student.items():
+    print(value)
