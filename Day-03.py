@@ -46,3 +46,14 @@ if user == 'admin' and logged_in:
 else:
     print('Wrong credentials')
 
+# Not operators
+
+user = 'Admin'
+logged_in = True
+
+if not logged_in:
+    print('Please log in')
+else:
+    print('Welcome!')
+
+
