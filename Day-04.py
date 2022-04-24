@@ -59,8 +59,13 @@ def func(*args, **kwargs):
 
 courses = ['COA', 'OS']
 info = {'name': 'Shariq', 'age':20}
-
 func(courses, info) # Will return a single tuple, courses as list & info as dictionary
+# Both courses & info gets supplied as positional args cuz no keyword is included
+
+# Supplying courses & info as parg & kwarg respectively
+courses = ['COA', 'OS']
+info = {'name': 'Shariq', 'age':20}
+func(*courses, **info)
 
 
 
