@@ -89,3 +89,13 @@ def days_in_month(year, month):
 print(is_leap(2024))
 print(days_in_month(2024, 2))
 
+# Function scope
+
+def func(x):
+    x += 2
+    print('Function returned value =',x)
+
+y = 10
+print('Before function call y =',y)
+func(y)
+print('After function call y =',y)
