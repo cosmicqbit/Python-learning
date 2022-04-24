@@ -30,11 +30,22 @@ print(hello_func('Shariq'))
 def greet(greeting, name='You'):
     return '{} {}'.format(greeting, name)
 
-print(greet('hello', 'shariq'))
+print(greet('hello', name='shariq'))
 print(greet('Hey'))
 
 # Here greeting is the required parameter
 # And name is a named parameter / optional
-# Required parameters should be supplied to the function first
+# Required parameters should be supplied to the function first --> Also called Positional arguments
+# Keyword argument | example: name='shariq'
 
- 
+#-----------------------#
+# Dealing with unknown number of input arguments
+
+def func(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+# *args for the arbitrary no of positional arguments
+# *kwargs for arbitrary no of keyword arguments
+
+
