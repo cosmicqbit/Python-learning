@@ -51,5 +51,16 @@ def func(*args, **kwargs):
 # Example 
 func('COA', 'OS', name="Shariq", age='20')
 
+# Supplying *args as List & **kwargs as Dictionary
+
+def func(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+courses = ['COA', 'OS']
+info = {'name': 'Shariq', 'age':20}
+
+func(courses, info) # Will return a single tuple, courses as list & info as dictionary
+
 
 
