@@ -25,9 +25,16 @@ def hello_func(name):
 
 print(hello_func('Shariq'))
 
+# With a default value 
 
 def greet(greeting, name='You'):
     return '{} {}'.format(greeting, name)
 
 print(greet('hello', 'shariq'))
 print(greet('Hey'))
+
+# Here greeting is the required parameter
+# And name is a named parameter / optional
+# Required parameters should be supplied to the function first
+
+ 
