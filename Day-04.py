@@ -14,6 +14,14 @@ def hello_func():
 
 hello_func() # Won't display any result 
 print(hello_func()) # This will print the string in the output
+
 string = hello_func() 
 print(string) # Same as above
+
+# // Modify above function //
+
+def hello_func(name):
+    return 'Hello, {}'.format(name)
+
+print(hello_func('Shariq'))
 
