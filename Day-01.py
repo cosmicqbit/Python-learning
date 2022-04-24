@@ -1,3 +1,5 @@
+# Numbers, Strings & other Data Types
+
 print("Hello World")
 # name = input("What's your name? \n")
 # print("Hello! " + name + " Welcome to the world of idiots ")
