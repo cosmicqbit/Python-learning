@@ -45,7 +45,11 @@ def func(*args, **kwargs):
     print(args)
     print(kwargs)
 
-# *args for the arbitrary no of positional arguments
-# *kwargs for arbitrary no of keyword arguments
+# *args for the arbitrary no of positional arguments | will return tuple 
+# *kwargs for arbitrary no of keyword arguments | will return dictionary
+
+# Example 
+func('COA', 'OS', name="Shariq", age='20')
+
 
 
