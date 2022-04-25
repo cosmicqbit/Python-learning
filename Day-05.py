@@ -32,4 +32,9 @@ print(my_list[-3:-8]) # Wrong
 # Syntax -> list[start:end:step]
 print(my_list[::1]) # will return all elements
 print(my_list[::2]) # Will print even elements only 
+print(my_list[1:10:2]) # will print 1, 3, 5, 7, 9
+
+# Extractin list in reverse format
+print(my_list[::-1]) # Will reverse the list
+
 
