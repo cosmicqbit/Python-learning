@@ -56,3 +56,16 @@ print(sample_url[-4:])
 # Get the url without https:// 
 print(sample_url[8:])
 
+# Get cosmicqbit purely
+print(sample_url[8:-4])
+
+# ----------- #
+# Sorting #
+
+list = [4, 5, 8, 9, 1, 0, 6, 7, 2, 3]
+
+sorted_list = sorted(lis)
+
+print('Sorted list is:\t', sorted_list)
+print('Original List is :\t', lis)
+
