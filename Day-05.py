@@ -28,3 +28,8 @@ print(my_list[-7:-3]) # Will print 3 - 6
 # End limit should be > start index in case of negative indexing
 print(my_list[-3:-8]) # Wrong
 
+# Slicing with steps
+# Syntax -> list[start:end:step]
+print(my_list[::1]) # will return all elements
+print(my_list[::2]) # Will print even elements only 
+
