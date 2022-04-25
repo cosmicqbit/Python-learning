@@ -23,3 +23,8 @@ print(my_list[:10]) # Same as above
 
 print(my_list[:]) # will print entire list
 
+print(my_list[-7:-3]) # Will print 3 - 6
+
+# End limit should be > start index in case of negative indexing
+print(my_list[-3:-8]) # Wrong
+
