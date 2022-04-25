@@ -37,4 +37,13 @@ print(my_list[1:10:2]) # will print 1, 3, 5, 7, 9
 # Extractin list in reverse format
 print(my_list[::-1]) # Will reverse the list
 
+print(my_list[-2:2:-2]) # Start index must be lesser than ending index
+
+# ---------------- #
+# Slicing Strings
+
+sample_url = 'https://cosmicqbit.dev'
+
+print(sample_url)
+print(sample_url[1])
 
