@@ -85,3 +85,8 @@ li = [-5, -6, -8, -4, 1]
 s_li = sorted(li, key=abs) # abs stand for absolute value
 print(s_li)
 
+# Sorting a tuple
+tup = (2, 4, 6, 7, 9, 3)
+
+sorted_tup = sorted(tup)
+print(sorted_tup)
