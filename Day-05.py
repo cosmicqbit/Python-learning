@@ -69,3 +69,13 @@ sorted_list = sorted(lis)
 print('Sorted list is:\t', sorted_list)
 print('Original List is :\t', lis)
 
+# Sort Method
+lis.sort()
+print(lis) # Actually changes the original list
+
+r = lis.sort() # Deosn't return any value for being a method & not a function
+
+# Sorting in reverse
+
+sorted_list = sorted(lis, reverse=True)
+print(sorted_list)
