@@ -62,7 +62,7 @@ print(sample_url[8:-4])
 # ----------- #
 # Sorting #
 
-list = [4, 5, 8, 9, 1, 0, 6, 7, 2, 3]
+lis = [4, 5, 8, 9, 1, 0, 6, 7, 2, 3]
 
 sorted_list = sorted(lis)
 
