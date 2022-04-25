@@ -47,3 +47,8 @@ sample_url = 'https://cosmicqbit.dev'
 print(sample_url)
 print(sample_url[1])
 
+# Reverse the URL
+print(sample_url[::-1]) 
+
+# Get the TLD
+print(sample_url[-4:])
