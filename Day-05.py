@@ -79,3 +79,9 @@ r = lis.sort() # Deosn't return any value for being a method & not a function
 
 sorted_list = sorted(lis, reverse=True)
 print(sorted_list)
+
+# Sorting based on Absolute value in case of negative elements
+li = [-5, -6, -8, -4, 1]
+s_li = sorted(li, key=abs) # abs stand for absolute value
+print(s_li)
+
