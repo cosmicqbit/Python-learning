@@ -52,3 +52,7 @@ print(sample_url[::-1])
 
 # Get the TLD
 print(sample_url[-4:])
+
+# Get the url without https:// 
+print(sample_url[8:])
+
