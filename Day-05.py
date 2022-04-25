@@ -13,3 +13,7 @@ print(my_list[0]) # Will return 0
 print(my_list[-1]) # will return last element 
 
 # Negative indexes come handy when we don't know the length of List
+
+print(my_list[0:6]) # Will return numbers from 0 - 5 cuz the terminal index is not inclusive
+
+print(my_list[:9]) # Will print from 0 to 8
