@@ -17,3 +17,9 @@ print(my_list[-1]) # will return last element
 print(my_list[0:6]) # Will return numbers from 0 - 5 cuz the terminal index is not inclusive
 
 print(my_list[:9]) # Will print from 0 to 8
+
+print(my_list[4:10]) # Will print from 4 to 9
+print(my_list[:10]) # Same as above
+
+print(my_list[:]) # will print entire list
+
