@@ -86,7 +86,15 @@ s_li = sorted(li, key=abs) # abs stand for absolute value
 print(s_li)
 
 # Sorting a tuple
-tup = (2, 4, 6, 7, 9, 3)
 
+tup = (2, 4, 6, 7, 9, 3)
 sorted_tup = sorted(tup)
 print(sorted_tup)
+
+# Sort method can't be implemented on tuples
+
+# Sorting a Dictionary
+
+dict = {'name': 'Amir', 'job': 'teacher', 'age': 25, 'course': 'python'}
+sorted_dict = sorted(dict)
+print(sorted_dict) # Will print only keys in aplhabetical order 
