@@ -53,3 +53,12 @@ with open('payload.txt') as content:
     for line in content:
         print(line, end='')
 
+# Reading specific no of chars
+
+with open('payload.txt') as content:
+
+    file_content = content.read(10)
+    print(file_content, end='*')
+    
+    file_content = content.read(20)
+    print(file_content, end="-")
