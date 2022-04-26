@@ -47,4 +47,9 @@ with open('payload.txt', 'r') as content:
     file_content = content.readline()
     print(file_content, end='')
 
+# Looping through all the lines using loop
+
+with open('payload.txt') as content:
+    for line in content:
+        print(line, end='')
 
