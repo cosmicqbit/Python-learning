@@ -59,6 +59,15 @@ with open('payload.txt') as content:
 
     file_content = content.read(10)
     print(file_content, end='*')
-    
+
     file_content = content.read(20)
     print(file_content, end="-")
+
+# Better way : To avoid returning empty chars even after the content lines have exhausted
+
+with open('payload.txt', 'r') as sample:
+    size_to_read = 10
+    sample_content = sample.read(size_to_read)
+    while len(sample_content) > 0:
+        print(sample_content, end='*')
+        sample_content = sample.read(size_to_read)
