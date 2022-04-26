@@ -93,4 +93,9 @@ with open('payload.txt', 'r') as dump:
 
 # --------------- #
 
+# Writing in the file
+
+with open('payload.txt', 'w') as notebook:
+    notebook.write('Bismillah') ## WARN : Will overwrite all the existin text as it starts form index 0
+
 
