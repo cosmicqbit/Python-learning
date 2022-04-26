@@ -26,3 +26,14 @@ with open('payload.txt', 'r') as content:
 # Check if file is closed
 print(content.closed) # Will return bool
 
+# Reading files line by line
+
+with open('payload.txt', 'r') as content:
+    file_content = content.readlines()
+    print(file_content) # Will return all the lines in one single string
+
+with open('payload.txt', 'r') as content:
+    file_content = content.readline() # will return first line only
+    print(file_content)
+    file_content = content.readline()
+    print(file_content) # Reads 2nd line to the screen cuz pointer have moved to the next line
