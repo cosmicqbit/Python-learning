@@ -19,5 +19,10 @@ print(content.mode) # In the case will return 'r' : reading mode
 
 # Context Manager --> Handles file closing without explicity declaring that
 with open('payload.txt', 'r') as content:
-    pass 
+    print(content.read()) # Prints / Reads the file content
+    pass
+
+# Outside Context Manager 
+# Check if file is closed
+print(content.closed) # Will return bool
 
