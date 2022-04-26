@@ -98,4 +98,24 @@ with open('payload.txt', 'r') as dump:
 with open('payload.txt', 'w') as notebook:
     notebook.write('Bismillah') ## WARN : Will overwrite all the existin text as it starts form index 0
 
+with open('dummy.txt', 'w') as so:
+    pass # Will create the file if it doesn't exist
+
+with open('dummy.txt', 'w') as horse:
+    horse.write('Grass') # Will write the 'Grass' string to the the dummy.txt 
+
+# Copying to a new file
+
+with open('payload.txt', 'r') as rf:
+    with open('dummy.txt', 'w') as wf:
+        for line in rf:
+            dummy.write(line)
+
+# Copying image using binary method 'rb' & 'wb' 
+
+with open('source.png', 'rb') as image:
+    with open('destination.png', 'wb') as copied_pic:
+        for line in image:
+            copied_pic.write(line)
+
 
