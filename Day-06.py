@@ -71,3 +71,26 @@ with open('payload.txt', 'r') as sample:
     while len(sample_content) > 0:
         print(sample_content, end='*')
         sample_content = sample.read(size_to_read)
+
+# Get position of the pointer while file reading
+
+with open('payload.txt', 'r') as source:
+    size_to_read = 20
+    f_contents = source.read(size_to_read)
+    print(source.tell()) # Will return 20 
+
+# Changing the position of pointer to desired index
+
+with open('payload.txt', 'r') as dump:
+    size_to_read = 10
+    turnout = dump.read(size_to_read)
+    print(turnout, end='')
+
+    f.seek(0)
+
+    turnout = dump.read(size_to_read)
+    print(turnout, end='') # Will return the first 10 chars again
+
+# --------------- #
+
+
