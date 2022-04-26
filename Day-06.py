@@ -36,4 +36,15 @@ with open('payload.txt', 'r') as content:
     file_content = content.readline() # will return first line only
     print(file_content)
     file_content = content.readline()
-    print(file_content) # Reads 2nd line to the screen cuz pointer have moved to the next line
+    print(file_content) # Reads 2nd line to the screen cuz pointer have moved to the next line 
+
+    # adds new empty line character between two consecutive lines
+    # Fix above problem 
+
+    file_content = content.readline()
+    print(file_content, end='')
+
+    file_content = content.readline()
+    print(file_content, end='')
+
+
