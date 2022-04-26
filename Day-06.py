@@ -4,7 +4,7 @@
 # File characteristics --> Name + Extension
 
 content = open('payload.txt', 'r')
-content.close() # Have to Explicitly close it
+content.close() # Have to Explicitly close it in order to not to run out of file descriptors
 
 # "r" - Read : Default value. Opens file for reading
 # "a" - Append : opens a file for appending, creates the file if it does not exist
@@ -16,4 +16,8 @@ print(content.name)
 
 # Check the file mode
 print(content.mode) # In the case will return 'r' : reading mode
+
+# Context Manager --> Handles file closing without explicity declaring that
+with open('payload.txt', 'r') as content:
+    pass 
 
