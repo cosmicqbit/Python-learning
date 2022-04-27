@@ -39,3 +39,11 @@ pattern = re.compile(r'\.') # Adding \
 matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
+
+# Locating the URL
+pattern = re.compile(r'cosmicqbit\.dev')
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
+
+# . 
