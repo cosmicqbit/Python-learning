@@ -55,7 +55,14 @@ for match in matches:
 # \S    - Not Whitespacce (space, tab, newline)
 
 # Practice
-pattern = re.compile('\w')
+pattern = re.compile('\w') # Try with . \d \D \w \W \s \S
 matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
+
+# Anchors
+
+# \b    - Word Boundary
+# \B    - Not a Word Boundary
+# ^     - Beginning of a String
+# $     - End of a String
