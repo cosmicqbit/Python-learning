@@ -46,4 +46,11 @@ matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
 
-# . 
+# .     - Any character Except new line
+# \d    - Digit (0-9)
+# \D    - Not a Digit (0-9)
+# \w    - Word Character (a-z, A - Z, 0-9, _)
+# \W    - Not a Word Character
+# \s    - Whitespace (space, tab, newline)
+# \S    - Not Whitespacce (space, tab, newline)
+
