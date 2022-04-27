@@ -54,3 +54,8 @@ for match in matches:
 # \s    - Whitespace (space, tab, newline)
 # \S    - Not Whitespacce (space, tab, newline)
 
+# Practice
+pattern = re.compile('\w')
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
