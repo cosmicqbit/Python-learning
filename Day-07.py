@@ -97,4 +97,3 @@ pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d')
 matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
-
