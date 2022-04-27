@@ -19,3 +19,15 @@ cosmicqbit.dev
 Mr. Bean
 Mr Mouse
 """
+
+# Raw String
+print('\Text String') # Will print five spaces before the text
+
+# Print \t in the text
+print(r'\tText String') # Will print \t as well 
+
+# Finding a match of 'abc' string
+pattern = re.compile(r'abc') 
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
