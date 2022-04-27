@@ -91,3 +91,10 @@ pattern = re.compile(r'end$')
 matches = pattern.finditer(sentence)
 for match in matches:
     print(match)
+
+# Locating Phone Numbers
+pattern = re.compile(r'\d\d\d.\d\d\d.\d\d\d\d') 
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
+
