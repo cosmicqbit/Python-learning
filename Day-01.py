@@ -1,4 +1,4 @@
-# Numbers, Strings & other Data Types
+# Setup, Numbers, Strings & other Data Types
 
 print("Hello World")
 # name = input("What's your name? \n")
