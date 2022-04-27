@@ -62,7 +62,25 @@ for match in matches:
 
 # Anchors
 
-# \b    - Word Boundary
+# \b    - Starting boundary of a word  
 # \B    - Not a Word Boundary
 # ^     - Beginning of a String
 # $     - End of a String
+
+pattern = re.compile(r'\bHa') # Will print two Ha
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
+
+pattern = re.compile(r'\BHa') # Will print one Ha which is the starting as a first character of a word
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
+
+
+# Begining of a String using ^
+sentence = 'Start a sentence and then bring it to an end'
+pattern = re.compile(r'^Start') 
+matches = pattern.finditer(sentence)
+for match in matches:
+    print(match)
