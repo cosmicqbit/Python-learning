@@ -31,3 +31,11 @@ pattern = re.compile(r'abc')
 matches = pattern.finditer(text_to_search)
 for match in matches:
     print(match)
+
+print(text_to_search[1:4])
+
+# . stands for every character cuz it's a MetaCharacter
+pattern = re.compile(r'\.') # Adding \
+matches = pattern.finditer(text_to_search)
+for match in matches:
+    print(match)
