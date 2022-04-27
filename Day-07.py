@@ -84,3 +84,10 @@ pattern = re.compile(r'^Start')
 matches = pattern.finditer(sentence)
 for match in matches:
     print(match)
+
+# End of a String
+sentence = 'Start a sentence and then bring it to an end'
+pattern = re.compile(r'end$') 
+matches = pattern.finditer(sentence)
+for match in matches:
+    print(match)
