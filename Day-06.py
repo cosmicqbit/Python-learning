@@ -1,6 +1,6 @@
 # Reading Writing & Parsing Files
 
-# Files --> Named collection of records stored into the secondary memory
+# Files -> Named collection of records stored into the secondary memory
 # File characteristics --> Name + Extension
 
 content = open('payload.txt', 'r')
